@@ -883,7 +883,7 @@ p{
     top: 15px;
     right: -4px;
     transform: translate(-50%,-50%);
-    
+    transition: fill 250ms var(--cubic);
 }
 .close-icon:hover,
 .close-icon:focus{
@@ -899,7 +899,8 @@ p{
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    cursor: pointer;   
+    cursor: pointer;
+    transition:  border-color 250ms var(--cubic);   
 }
 
 .button-close:hover,
@@ -1028,6 +1029,7 @@ p{
     background-size: contain;
     background-origin: border-box;
 
+    transition: background-color 250ms var(--cubic)
 }
 
 .conditions{
